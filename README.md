@@ -85,39 +85,7 @@ This means data stays in the same browser on the same device. It is not synced t
 - Basic input sanitization when rendering user-provided text
 - Documentation and Git/GitHub project organization
 
-## Suggested improvements
-
-These are good next steps once you understand the current version:
-
-1. Add automated tests for filtering, sorting, and form validation.
-2. Add a backend API and database so records can sync across devices.
-3. Add user accounts and authentication.
-4. Add reminders for upcoming follow-up dates.
-5. Add charts showing application activity over time.
-6. Deploy the site with GitHub Pages or another static hosting service.
-
-## GitHub setup
-
-Create a new empty GitHub repository named `devtrack-internship-tracker`, then run these commands inside this project folder:
-
-```bash
-git init
-git add .
-git commit -m "Build DevTrack internship application tracker"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/devtrack-internship-tracker.git
-git push -u origin main
-```
-
-Replace `YOUR-USERNAME` with your GitHub username.
-
 ## Resume description
 
 **DevTrack — Internship Application Tracker**  
 Designed and built a responsive internship application dashboard using HTML, CSS, and JavaScript. Implemented CRUD functionality, dynamic search and filtering, application status metrics, browser-based persistence with `localStorage`, and CSV export.
-
-Only list technologies and features you can explain confidently. A good next step is to customize the design, add tests, and deploy a live demo.
-
-## License
-
-This project is available under the MIT License. Add a `LICENSE` file if you choose to publish it under that license.
