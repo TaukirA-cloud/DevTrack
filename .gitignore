@@ -1,0 +1,9 @@
+# Editor / operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies and build output (not used by the starter version)
+node_modules/
+dist/
